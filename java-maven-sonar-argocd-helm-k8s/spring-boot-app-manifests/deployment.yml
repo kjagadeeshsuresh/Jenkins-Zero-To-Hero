@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: jagadeeshsureshk/application-cicd:6
+        image: jagadeeshsureshk/application-cicd:replaceImageTag
         ports:
         - containerPort: 8080
